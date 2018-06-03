@@ -34,7 +34,7 @@ passport.use(
   )
 );
 
-//app routes
+// app routes
 app.get("/", function(req, res) {
   res.render("content-before", { user: req.user });
 });
@@ -42,7 +42,7 @@ app.get("/", function(req, res) {
 app.get("/logged", function(req, res) {
   res.render("content-after", { user: googleProfile });
 });
-//Passport routes
+// Passport routes
 app.get(
   "/auth/google",
   passport.authenticate("google", {
