@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans|Quicksand|Raleway");
+
+footer {
+  font-family: "Quicksand", "Raleway", "Arial", sans-serif;
+  position: fixed;
+  bottom: 0;
+}

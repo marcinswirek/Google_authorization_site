@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans|Quicksand|Raleway");
+
+h2,
+p {
+  font-family: "Quicksand", "Raleway", "Arial", sans-serif;
+  text-align: center;
+}

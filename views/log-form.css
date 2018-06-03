@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans|Quicksand|Raleway");
+
+input {
+  margin-left: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  box-shadow: 0 0 5px black;
+  border: none;
+}
+
+.form {
+  padding-top: 20vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  font-family: "Quicksand", "Raleway", "Arial", sans-serif;
+  margin: 0 auto;
+  border: none;
+  border-radius: 4px;
+  background-color: chocolate;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  transition: 0.2s all linear;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0 0 5px black;
+}
