@@ -13,6 +13,7 @@ app.use(passport.session());
 passport.serializeUser(function(user, done) {
   done(null, user);
 });
+
 passport.deserializeUser(function(obj, done) {
   done(null, obj);
 });
@@ -42,6 +43,7 @@ app.get("/", function(req, res) {
 app.get("/logged", function(req, res) {
   res.render("content-after", { user: googleProfile });
 });
+
 // Passport routes
 app.get(
   "/auth/google",
@@ -49,6 +51,7 @@ app.get(
     scope: ["profile", "email"]
   })
 );
+
 app.get(
   "/auth/google/callback",
   passport.authenticate("google", {
